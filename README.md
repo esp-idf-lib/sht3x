@@ -11,7 +11,7 @@ Driver for Sensirion SHT30/SHT31/SHT35 digital temperature and humidity sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/sht3x^1.0.1
+idf.py add-dependency esp-idf-lib/sht3x^1.0.1
 ```
 
 ## Support
