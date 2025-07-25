@@ -1,5 +1,9 @@
 # esp-idf-lib/sht3x
 
+[![Build examples](https://github.com/esp-idf-lib/sht3x/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/sht3x/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/sht3x/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/sht3x/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/sht3x/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/sht3x/actions/workflows//validate-component.yml)
+
 Driver for Sensirion SHT30/SHT31/SHT35 digital temperature and humidity sensor.
 
 * [Documentation](https://esp-idf-lib.github.io/sht3x/)
@@ -11,7 +15,7 @@ Driver for Sensirion SHT30/SHT31/SHT35 digital temperature and humidity sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/sht3x^1.0.1
+idf.py add-dependency esp-idf-lib/sht3x
 ```
 
 ## Support
