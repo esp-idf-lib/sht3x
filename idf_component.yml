@@ -1,5 +1,5 @@
 ---
-version: 1.0.7
+version: 1.0.8
 description: Driver for Sensirion SHT30/SHT31/SHT35 digital temperature and humidity sensor
 license: BSD-3
 targets:
