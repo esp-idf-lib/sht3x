@@ -170,7 +170,8 @@ esp_err_t sht3x_measure(sht3x_t *dev, float *temperature, float *humidity);
  *       it can be considered as constant for a repeatability.
  *
  * @param repeat    Repeatability, see type ::sht3x_repeat_t
- * @return          Measurement duration given in RTOS ticks
+ * @return          Measurement duration given in RTOS ticks, including a small
+ *                  safety margin
  */
 uint8_t sht3x_get_measurement_duration(sht3x_repeat_t repeat);
 
